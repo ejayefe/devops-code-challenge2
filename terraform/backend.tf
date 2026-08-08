@@ -20,7 +20,7 @@ terraform {
     bucket         = "tech-challenge-2-state-433635532699"
     key            = "tech-challenge-2/eks/terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "terraform-state-locks"
     encrypt        = true
+    use_lockfile   = true
   }
 }
