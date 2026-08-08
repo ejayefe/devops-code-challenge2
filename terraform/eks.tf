@@ -14,7 +14,7 @@ module "eks" {
     main = {
       min_size     = var.node_min_size
       max_size     = var.node_max_size
-      desired_size = 1
+      desired_size = 2
 
       instance_types = [var.node_instance_type] # t3.small
       capacity_type  = "ON_DEMAND"
