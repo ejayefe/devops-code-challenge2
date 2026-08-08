@@ -1,0 +1,26 @@
+# Terraform Exclusions
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+crash.*.log
+
+# Node.js Exclusions
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# System Exclusions
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

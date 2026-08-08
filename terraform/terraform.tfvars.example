@@ -1,0 +1,7 @@
+# Blueprint template for local variable definitions
+aws_region         = "us-east-1"
+cluster_name       = "tech-challenge-2-cluster"
+vpc_cidr           = "10.0.0.0/16"
+node_instance_type = "t3.small"
+node_min_size      = 1
+node_max_size      = 4
