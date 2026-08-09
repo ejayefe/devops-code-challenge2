@@ -1,8 +1,8 @@
 replicaCount: 2
 
 image:
-  repository: public.ecr.aws/docker/library/node # Or your custom Docker registry / ECR image
-  tag: "18-alpine"
+  repository: 433635532699.dkr.ecr.us-east-1.amazonaws.com/hello-world-app 
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
