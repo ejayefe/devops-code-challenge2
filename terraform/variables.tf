@@ -33,3 +33,9 @@ variable "node_max_size" {
   type        = number
   default     = 4
 }
+
+variable "node_desired_size" {
+  description = "Desired number of worker nodes"
+  type        = number
+  default     = 1
+}
